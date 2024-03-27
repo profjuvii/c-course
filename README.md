@@ -9,7 +9,7 @@ Below is the schedule of topics covered in this course:
 | 1 | [Variables and Operators](projects/pj01) | Learn how to declare variables, use different data types, and perform various operations.        |
 | 2 | [Conditionals and Loops](projects/pj02)  | Understand conditional statements and looping constructs for controlling the flow of program execution. |
 | 3 | [Functions](projects/pj03)               | Explore the concept of functions, parameter passing, return values, and modular programming.    |
-| 4 | [Arrays and Strings](projects/pj04)<br>      | Discover how to work with arrays and strings, essential data structures in C.                      |
+| 4 | [Arrays and Strings](projects/pj04)      | Discover how to work with arrays and strings, essential data structures in C.                      |
 | 5 | [2D Arrays](projects/pj05)               | Extend your knowledge of arrays to two-dimensional arrays for handling tabular data.              |
 | 6 | [Structures](projects/pj06)              | Learn about structures and how they allow you to group related data under a single name.           |
 | 7 | [Files](projects/pj07)                   | Understand file handling in C, including reading from and writing to files.                       |
@@ -21,4 +21,5 @@ Below is the schedule of topics covered in this course:
 | 13| [Time](projects/pj13)                    | Explore time-related functions for working with date and time data.                               |
 | 14| [Regular Expressions](projects/pj14)     | Learn how to use regular expressions for pattern matching and text processing.                    |
 
+## Conclusion
 By the end of this course, you will have a solid understanding of the C programming language and be equipped with the skills to develop efficient and robust software applications.
