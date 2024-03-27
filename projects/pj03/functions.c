@@ -17,8 +17,8 @@ bool is_prime(const int num){
 
 // function to calculate factorial
 int factorial(const int n){
-    if(n == 0 || n == 1)
-        return 1;
+    if(n <= 1)
+        return n >= 0;
     return n * factorial(n - 1);
 }
 
