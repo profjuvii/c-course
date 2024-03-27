@@ -1,10 +1,10 @@
 # Programming in the C language
 Welcome to the C programming language course! In this course, we will dive deep into the fundamentals of C programming, covering a wide range of topics essential for mastering this powerful language. C is a versatile and widely-used programming language known for its efficiency, speed, and portability, making it an excellent choice for developing system software, embedded applications, and much more.
 
-Throughout this course, you will explore the following topics:
+## Schedule of topics
 
 |   | Topic                                     | Description                                                                                      |
-|---|-------------------------------------------|--------------------------------------------------------------------------------------------------|
+|:-:|-------------------------------------------|--------------------------------------------------------------------------------------------------|
 | 1 | [Variables and Operators](projects/pj01) | Learn how to declare variables, use different data types, and perform various operations.        |
 | 2 | [Conditionals and Loops](projects/pj02)  | Understand conditional statements and looping constructs for controlling the flow of program execution. |
 | 3 | [Functions](projects/pj03)               | Explore the concept of functions, parameter passing, return values, and modular programming.    |
