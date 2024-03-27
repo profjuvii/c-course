@@ -4,7 +4,7 @@ Welcome to the C programming language course! In this course, we will dive deep 
 Throughout this course, you will explore the following topics:
 
 |   | Topic                                      | Description                                                                                      |
-|:-:|:------------------------------------------:|--------------------------------------------------------------------------------------------------|
+|:-:|--------------------------------------------|--------------------------------------------------------------------------------------------------|
 | 1 | [Variables and Operators](projects/pj01)  | Learn how to declare variables, use different data types, and perform various operations.        |
 | 2 | [Conditionals and Loops](projects/pj02)   | Understand conditional statements and looping constructs for controlling the flow of program execution. |
 | 3 | [Functions](projects/pj03)                | Explore the concept of functions, parameter passing, return values, and modular programming.    |
@@ -19,6 +19,25 @@ Throughout this course, you will explore the following topics:
 | 12| [Dynamic Memory Allocation](projects/pj12)| Understand dynamic memory allocation and deallocation using functions like malloc and free.      |
 | 13| [Time](projects/pj13)                     | Explore time-related functions for working with date and time data.                               |
 | 14| [Regular Expressions](projects/pj14)      | Learn how to use regular expressions for pattern matching and text processing.                    |
+
+<table style="width:100%; text-align:center;">
+  <tr style="height:50px;">
+    <th> </th>
+    <th> Topic </th>
+    <th> Description </th>
+  </tr>
+  <tr style="height:50px;">
+    <td> 1 </td>
+    <td> <a href="projects/pj01">Variables and Operators</a> </td>
+    <td> Learn how to declare variables, use different data types, and perform various operations. </td>
+  </tr>
+  <tr style="height:50px;">
+    <td> 2 </td>
+    <td> <a href="projects/pj02">Conditionals and Loops</a> </td>
+    <td> Understand conditional statements and looping constructs for controlling the flow of program execution. </td>
+  </tr>
+  <!-- Додайте решту рядків тут -->
+</table>
 
 
 By the end of this course, you will have a solid understanding of the C programming language and be equipped with the skills to develop efficient and robust software applications.
