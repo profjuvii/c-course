@@ -2,6 +2,7 @@
 Welcome to the C programming language course! In this course, we will dive deep into the fundamentals of C programming, covering a wide range of topics essential for mastering this powerful language. C is a versatile and widely-used programming language known for its efficiency, speed, and portability, making it an excellent choice for developing system software, embedded applications, and much more.
 
 ## Schedule of topics
+Below is the schedule of topics covered in this course:
 
 |   | Topic                                     | Description                                                                                      |
 |:-:|-------------------------------------------|--------------------------------------------------------------------------------------------------|
