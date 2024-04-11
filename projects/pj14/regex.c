@@ -6,9 +6,10 @@
 
 
 int main(int argc, char* argv[]){
-    // compile the regular expression pattern for date validation
+    // compile the regular expression pattern for phone number validation
+    char* regex_pattern = "^(([0-9]{3})-([0-9]{3})-([0-9]{4}))$"; // ((###)-(###)-(####))
     regex_t regex;
-    int res = regcomp(&regex, "^([0-9]{2})\\.([0-9]{2})\\.([0-9]{4})$", REG_EXTENDED | REG_ICASE); // ((DD).(MM).(YYYY))
+    int res = regcomp(&regex, regex_pattern, REG_EXTENDED | REG_ICASE);
     if(res != 0){
         fprintf(stderr, "Regular expression could not be compiled.\n");
         exit(EXIT_FAILURE);
@@ -17,13 +18,13 @@ int main(int argc, char* argv[]){
     printf("Regular expression has been compiled.\n");
 
     char buffer[100];
-    printf("Enter a date: ");
+    printf("Enter a phone number: ");
     scanf("%s", buffer);
 
     regmatch_t groups[MAX_GROUPS];
     res = regexec(&regex, buffer, MAX_GROUPS, groups, 0); // execute regular expression matching
     if(res == REG_NOMATCH){
-        fprintf(stderr, "Error: Not a date format.\n");
+        fprintf(stderr, "Error: Not a phone number format.\n");
     } else{
         printf("Correct input.\n");
 
