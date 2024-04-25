@@ -4,7 +4,7 @@
 
 int main(int argc, char* argv[]){
     // char name[] = "string";
-    char person_name[10] = "Doreen";
+    char person_name[10] = "Doreen"; // 'D', 'o', 'r', 'e', 'e', 'n', '\0', '\0', '\0', '\0'
 
     // gets the string length
     int length = strlen(person_name);

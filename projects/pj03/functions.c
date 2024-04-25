@@ -3,13 +3,13 @@
 
 
 // function to check if a number is prime
-bool is_prime(const int num){
-    if(num <= 3)
-        return num > 1;
-    else if(num % 2 == 0 || num % 3 == 0)
+bool is_prime(const int n){
+    if(n <= 3)
+        return n > 1;
+    else if(n % 2 == 0 || n % 3 == 0)
         return false;
-    for(int i = 5; i * i <= num; i += 6)
-        if(num % i == 0 || num % (i + 2) == 0)
+    for(int i = 5; i * i <= n; i += 6)
+        if(n % i == 0 || n % (i + 2) == 0)
             return false;
     return true;
 }
@@ -23,25 +23,17 @@ int factorial(const int n){
 }
 
 
-// function to print Fibonacci sequence
-void print_fibonacci_sequence(const int length){
-    if(length <= 0){
-        printf("Error: Wrong length.\n");
-        return;
-    } else if(length == 1){
-        printf("0\n");
-        return;
+// function to calculate Fibonacci numbers
+int fibonacci(const int n){
+    if(n <= 0)
+        return -1;
+    int prev = 0, current = 1, temp = 0;
+    for(int i = 1; i < n; ++i){
+        temp = current;
+        current += prev;
+        prev = temp;
     }
-    int num = 0, res = 1;
-    printf("0 1 ");
-    for(int i = 2; i < length; ++i){
-        int temp = res;
-        res += num;
-        num = temp;
-        printf("%d ", res);
-    }
-    printf("\n");
-    return;
+    return current;
 }
 
 
@@ -58,7 +50,9 @@ int main(int argc, char* argv[]){
     printf("%d! = %d\n", num, factorial(num));
 
     // printing Fibonacci sequence of length 10
-    print_fibonacci_sequence(10);
+    for(int i = 1; i <= 20; ++i)
+        printf("%d ", fibonacci(i));
+    printf("\n");
 
     return 0;
 }
