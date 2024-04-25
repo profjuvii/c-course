@@ -49,7 +49,7 @@ int main(int argc, char* argv[]){
     int num = 8;
     printf("%d! = %d\n", num, factorial(num));
 
-    // printing Fibonacci sequence of length 10
+    // printing Fibonacci sequence of length 20
     for(int i = 1; i <= 20; ++i)
         printf("%d ", fibonacci(i));
     printf("\n");
