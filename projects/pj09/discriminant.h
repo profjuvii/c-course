@@ -1,5 +1,5 @@
-#ifndef DISCRIMINANT_H
-#define DISCRIMINANT_H
+#ifndef _DISCRIMINANT_H
+#define _DISCRIMINANT_H
 
 // Structure definition for representing a quadratic equation
 struct quadratic_equation{

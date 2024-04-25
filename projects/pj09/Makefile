@@ -1,12 +1,12 @@
 CC = gcc
-CFLAGS = -Wall -Werror -std=c11
+CFLAGS = -std=c11 -Wall -Werror
 LDLIBS = -lm
 OUTPUT = calculator
 
 all: $(OUTPUT)
 
 $(OUTPUT): main.o discriminant.o 
-	cppcheck --enable=unusedFunction --error-exitcode=1 *.c
+	cppcheck --check-level=exhaustive --enable=unusedFunction --error-exitcode=1 *.c
 	$(CC) $(CFLAGS) $^ $(LDLIBS) -o $@
 
 main.o: main.c 
