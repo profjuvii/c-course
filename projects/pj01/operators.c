@@ -2,8 +2,8 @@
 
 
 int main(int argc, char* argv[]){
-    int a = 10;
-    int b = 5;
+    int a = 10;     // first value
+    int b = 5;      // second value
     
     // arithmetic operators
     int sum = a + b;            // sum of 'a' and 'b'
