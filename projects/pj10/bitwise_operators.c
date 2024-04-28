@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int main(int argc, char* argv[]){
+int main(){
     // variables
     int a = 12;     // binary representation: 1100
     int b = 10;     // binary representation: 1010

@@ -13,7 +13,7 @@ void swap(int* num1, int* num2){
 }
 
 
-int main(int argc, char* argv[]){
+int main(){
     // type* name = value;
     int num1 = 10;          // integer variable
     int* ptr = &num1;       // pointer variable, that stores the address of num

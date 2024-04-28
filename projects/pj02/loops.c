@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int main(int argc, char* argv[]){
+int main(){
     int size = 5;
     int result = 0;
 

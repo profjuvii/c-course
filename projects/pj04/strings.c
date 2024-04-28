@@ -2,7 +2,7 @@
 #include <string.h> // strlen() gets the string length
 
 
-int main(int argc, char* argv[]){
+int main(){
     // char name[] = "string";
     char person_name[10] = "Doreen"; // 'D', 'o', 'r', 'e', 'e', 'n', '\0', '\0', '\0', '\0'
 

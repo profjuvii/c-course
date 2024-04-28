@@ -15,7 +15,7 @@ void print_array(const int* num, const int size){
 }
 
 
-int main(int argc, char* argv[]){
+int main(){
     int size = 10; // size of the array
 
     // type* name = (type*)malloc/calloc(size * sizeof(type));

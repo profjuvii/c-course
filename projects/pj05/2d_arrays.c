@@ -12,7 +12,7 @@ void print_matrix(const int rows, const int cols, const int matrix[][cols]){
 }
 
 
-int main(int argc, char* argv[]){
+int main(){
     // type name[][size] = {{val01, val02, val03}, {val11, val12, val13}, {val21, val22, val23}};
     int A[][3] = {
         {12, 91, -33},  // two-dimensional array of integers

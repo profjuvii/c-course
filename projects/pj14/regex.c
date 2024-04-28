@@ -5,7 +5,7 @@
 #define MAX_GROUPS 20
 
 
-int main(int argc, char* argv[]){
+int main(){
     // compile the regular expression pattern for phone number validation
     char* regex_pattern = "^(([0-9]{3})-([0-9]{3})-([0-9]{4}))$"; // ((###)-(###)-(####))
     regex_t regex;

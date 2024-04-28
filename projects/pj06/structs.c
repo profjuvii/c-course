@@ -18,7 +18,7 @@ struct color_settings{
 } __attribute__((packed));
 
 
-int main(int argc, char* argv[]){
+int main(){
     // define and initialize person1 using designated initializers
     struct person person1 = {
         .name = "Alvina",

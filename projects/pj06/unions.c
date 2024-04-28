@@ -9,7 +9,7 @@ union object{
 };
 
 
-int main(int argc, char* argv[]){
+int main(){
     // declare a variable var of type union object
     union object var;
 

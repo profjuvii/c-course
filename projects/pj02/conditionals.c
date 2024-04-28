@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int main(int argc, char* argv[]){
+int main(){
     // if-else statements
     int x = 10;
 

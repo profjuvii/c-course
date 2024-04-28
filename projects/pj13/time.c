@@ -3,7 +3,7 @@
 #include <unistd.h> // sleep() to stop the program
 
 
-int main(int argc, char* argv[]){
+int main(){
     // difftime
     time_t time1, time2;
     time(&time1);   // getting the current time

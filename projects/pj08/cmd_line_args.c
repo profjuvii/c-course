@@ -3,8 +3,8 @@
 
 
 int main(int argc, char* argv[]){
-    // argc - number of arguments passed through command line
-    // argv - array of strings, where each element represents one of the command line arguments
+    // argc - number of arguments passed through cmd line
+    // argv - array of strings, where each element represents one of the cmd line arguments
     // where first argument argv[0] is always the name of the program itself
 
     // example with a constant where the second argument argv[1] is a constant

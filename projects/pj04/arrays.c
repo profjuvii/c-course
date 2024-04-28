@@ -8,7 +8,7 @@ void print_array(const int num[], const int size){
 }
 
 
-int main(int argc, char* argv[]){
+int main(){
     // type name[] = {value1, value2, value3, ...};
     int numbers[] = {71, 45, -2, 343, 52, 90, -87, 37, -111, 18}; // one-dimensional array of integers
 

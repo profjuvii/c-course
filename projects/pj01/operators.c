@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int main(int argc, char* argv[]){
+int main(){
     int a = 10;     // first value
     int b = 5;      // second value
     

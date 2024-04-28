@@ -2,7 +2,7 @@
 #include <stdbool.h>    // boolean variable
 
 
-int main(int argc, char* argv[]){
+int main(){
     // type name = value;
     int num = 10;               // integer (whole number)           2 bytes (16-bit system) or 4 bytes (32-bit or 64-bit system)
     float f_num = 23.2;         // floating point number            4 bytes

@@ -18,7 +18,7 @@ struct player{
 };
 
 
-int main(int argc, char* argv[]){
+int main(){
     struct player player = {
         .class = PALADIN,
         .name = "Aurora Faithguard",

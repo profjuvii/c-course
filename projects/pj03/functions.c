@@ -38,7 +38,7 @@ int fibonacci(const int n){
 
 
 // main function
-int main(int argc, char* argv[]){
+int main(){
     // printing prime numbers from 0 to 15
     for(int i = 0; i < 15; ++i)
         if(is_prime(i))

@@ -11,7 +11,7 @@ typedef struct{
 } fruit;
 
 
-int main(int argc, char* argv[]){
+int main(){
     // FILE* name = fopen("filename.txt", "mode");
     FILE* input = fopen(PATH, "r"); // open the file for reading
 
